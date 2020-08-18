@@ -12,23 +12,24 @@ import {
   MatToolbarModule
 } from '@angular/material';
 
-//import { MatFormFieldModule } from '@angular/material/form-field';
-
 @NgModule({
   imports: [
     CommonModule,
     BrowserAnimationsModule,
-    MatButtonModule, MatFormFieldModule,
+    MatButtonModule, 
     MatInputModule,
     MatCardModule,
     MatToolbarModule,
+    MatFormFieldModule,
     MatIconModule
   ],
   exports: [
     MatButtonModule,
     MatInputModule,
-    MatCardModule, MatIconModule, MatFormFieldModule,
-    MatToolbarModule
+    MatCardModule, 
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatIconModule
   ],
   declarations: []
 })
