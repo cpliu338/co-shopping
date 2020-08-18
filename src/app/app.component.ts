@@ -2,7 +2,8 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `
+  template: `<router-outlet></router-outlet>`,
+  /*
     <div class="app-container">
       <mat-card>
         <mat-toolbar>
@@ -119,6 +120,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
       </mat-card>
     </div>
   `,
+  */
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
