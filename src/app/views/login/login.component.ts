@@ -3,9 +3,7 @@ import { Http } from '@angular/http';
 
 @Component({
   selector: 'login',
-  template: `
-    <h1>Login</h1>
-  `,
+  templateUrl: './login.component.html'
 })
 export class LoginViewComponent {
 }

@@ -7,24 +7,27 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Imports of used components 
 import { 
   MatButtonModule,
-  MatInputModule,
-  MatCardModule,
+  MatInputModule, 
+  MatCardModule, MatIconModule, MatFormFieldModule,
   MatToolbarModule
 } from '@angular/material';
+
+//import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   imports: [
     CommonModule,
     BrowserAnimationsModule,
-    MatButtonModule,
+    MatButtonModule, MatFormFieldModule,
     MatInputModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule
   ],
   exports: [
     MatButtonModule,
     MatInputModule,
-    MatCardModule,
+    MatCardModule, MatIconModule, MatFormFieldModule,
     MatToolbarModule
   ],
   declarations: []
